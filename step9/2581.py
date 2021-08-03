@@ -11,7 +11,7 @@ for i in range(M,N+1): #M부터 N+1까지
         break #1이상이면 필요없으니 이프문 밖으로나가도 상관x
     if k ==0:
       lst.append(i) #lst에 소수 출력 
-
+  
 if len(lst)>0:
   print(sum(lst))
   print(min(lst))
