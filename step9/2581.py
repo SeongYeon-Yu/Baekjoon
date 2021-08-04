@@ -12,6 +12,7 @@ for i in range(M,N+1): #M부터 N+1까지
     if k ==0:
       lst.append(i) #lst에 소수 출력 
   
+  
 if len(lst)>0:
   print(sum(lst))
   print(min(lst))
